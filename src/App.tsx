@@ -7,6 +7,7 @@ import Roadmap from './components/Roadmap';
 import Community from './components/Community';
 import Footer from './components/Footer';
 import BuyPage from './components/BuyPage';
+import Slider from './components/Slider';
 
 function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);
@@ -22,8 +23,12 @@ function App() {
 
   return (
     <div className="min-h-screen bg-black text-white">
-      
-{currentPath !== '/buy' && <Navbar />}
+      {currentPath !== '/buy' && (
+        <>
+          <Navbar />
+          <Slider />
+        </>
+      )}
       {currentPath === '/' && (
         <>
           <Hero />
