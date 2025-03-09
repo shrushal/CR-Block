@@ -73,7 +73,7 @@ const Navbar = () => {
               <div className="px-4 py-2 space-y-1">
                 <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">Documentation</a>
                 <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">Whitepaper</a>
-                <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">GitHub</a>
+                <a href="https://github.com/shrushal/CR-Block" className="block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-800">GitHub</a>
               </div>
             </div>
           </div>
